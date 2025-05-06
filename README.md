@@ -1,3 +1,26 @@
+# cypress-express
+
+Bem-vindo ao repositório **cypress-express**.  
+Este projeto foi desenvolvido para executar testes automatizados utilizando **Cypress** e **API Express**.  
+Este guia irá ajudá-lo a configurar e executar o projeto em sua máquina local.
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes requisitos configurados em sua máquina:
+
+- **Node.js e npm** instalados  
+  Verifique a instalação executando:
+  ```bash
+  node -v
+  npm -v
+Se não estiver instalado, faça o download e instale em: https://nodejs.org/
+
+Git
+Verifique a instalação executando:
+git --version
+
 ⚙️ Passo a passo para instalação
 1. Clone o repositório no seu ambiente local:
 bash
@@ -44,28 +67,3 @@ Comando	Descrição
 npm run start	Iniciar o servidor Express
 npx cypress open	Abrir os testes Cypress no modo interativo
 npx cypress run	Executar os testes Cypress em modo headless
-
-🤝 Contribuição
-Contribuições são bem-vindas!
-Siga os passos abaixo para contribuir com o projeto:
-
-Fork este repositório.
-
-Crie uma branch para sua modificação:
-
-bash
-Copiar
-Editar
-git checkout -b sua-branch
-Envie suas modificações:
-
-bash
-Copiar
-Editar
-git commit -m "Descrição do commit"
-git push origin sua-branch
-Abra um Pull Request no GitHub.
-
-📄 Licença
-Este projeto está licenciado sob a MIT License.
-
