@@ -40,10 +40,6 @@ npm install
 🚀 Executando o servidor Express
 Este projeto contém uma API construída com Express.
 Para iniciar o servidor, execute:
-
-bash
-Copiar
-Editar
 npm run start
 Por padrão, o servidor será iniciado em: http://localhost:3000
 
@@ -51,16 +47,12 @@ Certifique-se de que o servidor esteja rodando antes de executar os testes.
 
 🧪 Executando os testes com Cypress
 Abrir o Dashboard do Cypress:
-bash
-Copiar
-Editar
+
 npx cypress open
 Após abrir o painel, selecione os casos de teste e execute conforme necessário.
 
 Executar os testes diretamente no console (modo headless):
-bash
-Copiar
-Editar
+
 npx cypress run
 🛠️ Ambiente de Desenvolvimento - Scripts disponíveis
 Comando	Descrição
